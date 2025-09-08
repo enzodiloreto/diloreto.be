@@ -1,31 +1,27 @@
 <script>
 	import { ExternalLink, Github } from 'lucide-svelte';
 
+	import weatherProject from '$lib/assets/weather.png';
+	import todoList from '$lib/assets/todo.png';
+
 	const projects = [
 		{
-			title: 'E-Commerce Platform',
-			description: 'A full-stack e-commerce solution built with SvelteKit and Stripe integration.',
-			image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop',
-			tech: ['SvelteKit', 'TypeScript', 'Tailwind CSS', 'Stripe'],
-			github: 'https://github.com',
-			demo: 'https://example.com'
+			title: 'Mini Weather App',
+			description: 'A convenient weather app built with Sveltekit, Tailwind, and OpenWeather api.',
+			image:  weatherProject,
+			tech: ['Svelte', 'Javascript', 'Tailwind CSS', 'OpenWeather'],
+			github: '#',
+			demo: 'https://weatherapp-be1.netlify.app'
 		},
 		{
-			title: 'Task Management App',
-			description: 'A collaborative project management tool with real-time updates and team features.',
-			image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop',
-			tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-			github: 'https://github.com',
-			demo: 'https://example.com'
+			title: 'To Do List App',
+			description: 'Your typical To DO list but more fancy.',
+			image: todoList,
+			tech: ['Svelte', 'Javascript', 'Tailwind CSS'],
+			github: '#',
+			demo: 'https://todolist1333.netlify.app'
 		},
-		{
-			title: 'Portfolio Website',
-			description: 'A responsive portfolio built with modern web technologies and smooth animations.',
-			image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=300&fit=crop',
-			tech: ['SvelteKit', 'Three.js', 'GSAP', 'Tailwind CSS'],
-			github: 'https://github.com',
-			demo: 'https://example.com'
-		}
+		
 	];
 </script>
 

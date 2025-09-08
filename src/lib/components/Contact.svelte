@@ -47,7 +47,7 @@
 					<div class="space-y-4">
 						<div class="flex items-center text-gray-300">
 							<Mail class="text-purple-400 mr-4" size={20} />
-							<span>your.email@example.com</span>
+							<span>enzo@diloreto.be</span>
 						</div>
 						<div class="flex items-center text-gray-300">
 							<MessageSquare class="text-purple-400 mr-4" size={20} />

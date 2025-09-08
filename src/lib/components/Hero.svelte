@@ -34,7 +34,7 @@
 				<a href="https://github.com" class="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
 					<Github size={28} />
 				</a>
-				<a href="mailto:your.email@example.com" class="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
+				<a href="mailto:enzo@diloreto.be" class="text-gray-400 hover:text-white transition-colors transform hover:scale-110">
 					<Mail size={28} />
 				</a>
 			</div>

@@ -2,10 +2,10 @@
 	import { Code, Palette, Database, Globe } from 'lucide-svelte';
 
 	const skills = [
-		{ name: 'Frontend', icon: Code, items: ['Svelte', 'React', 'TypeScript'] },
+		{ name: 'Frontend', icon: Code, items: ['Svelte', 'React', 'Javascript', 'TypeScript'] },
 		{ name: 'Design', icon: Palette, items: ['UI/UX', 'Figma', 'Tailwind CSS', 'Animation'] },
-		{ name: 'Backend', icon: Database, items: ['Node.js', 'PostgreSQL', 'MongoDB'] },
-		{ name: 'Tools', icon: Globe, items: ['Git', 'Docker', 'Vercel'] }
+		{ name: 'Backend', icon: Database, items: ['Node.js', 'Java', 'PostgreSQL', 'MongoDB'] },
+		{ name: 'Tools', icon: Globe, items: ['Git', 'Docker', 'Netlify', 'Vercel'] }
 	];
 </script>
 
@@ -17,10 +17,15 @@
 			</h2>
 
 			<div class="grid md:grid-cols-2 gap-12 items-center mb-16">
-				<div>
+				<div class="relative bg-slate-800/50 p-6 rounded-xl border border-slate-700
+    overflow-hidden group transition-all duration-300
+    hover:border-purple-500">
+	<div class="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-blue-600/20
+                transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+    </div>
 					<h3 class="text-2xl font-bold text-white mb-6">My Story</h3>
 					<p class="text-gray-300 mb-4 leading-relaxed">
-						I'm a passionate full-stack developer with over 5 years of experience creating 
+						I'm a passionate full-stack developer with over 3 years of experience creating 
 						digital experiences that combine beautiful design with robust functionality.
 					</p>
 					<p class="text-gray-300 mb-6 leading-relaxed">
@@ -28,12 +33,7 @@
 						coding, you'll find me exploring new technologies, contributing to open source 
 						projects, or sharing knowledge with the developer community.
 					</p>
-					<a 
-						href="/resume.pdf" 
-						class="inline-flex items-center bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all"
-					>
-						Download Resume
-					</a>
+					
 				</div>
 
 				<div class="grid grid-cols-2 gap-6">

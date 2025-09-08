@@ -1,5 +1,5 @@
 <script>
-	import { Github, Linkedin, Mail, Heart } from 'lucide-svelte';
+	import { Github, Mail, Heart } from 'lucide-svelte';
 </script>
 
 <footer class="bg-gradient-to-r from-slate-900/80 via-purple-950/70 to-slate-900/80 backdrop-blur-sm border-b border-purple-800/50 border-t border-slate-700 py-12">
@@ -15,10 +15,8 @@
 					<a href="https://github.com" class="text-gray-400 hover:text-white transition-colors">
 						<Github size={24} />
 					</a>
-					<a href="https://linkedin.com" class="text-gray-400 hover:text-white transition-colors">
-						<Linkedin size={24} />
-					</a>
-					<a href="mailto:your.email@example.com" class="text-gray-400 hover:text-white transition-colors">
+			
+					<a href="mailto:enzo@diloreto.be" class="text-gray-400 hover:text-white transition-colors">
 						<Mail size={24} />
 					</a>
 				</div>
@@ -29,7 +27,7 @@
 					Made with <Heart class="text-red-500 mx-2" size={16} /> using SvelteKit
 				</p>
 				<p class="text-gray-500 text-sm mt-2">
-					© 2024 Your Name. All rights reserved.
+					© 2025 Enzo-Alessandro. All rights reserved.
 				</p>
 			</div>
 		</div>
