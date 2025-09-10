@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Your Name - Portfolio</title>
+	<title>Diloreto.be</title>
 	<meta name="description" content="Full-stack developer passionate about creating amazing web experiences" />
 </svelte:head>
 
