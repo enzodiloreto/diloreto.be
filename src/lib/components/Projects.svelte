@@ -3,6 +3,7 @@
 
 	import weatherProject from '$lib/assets/weather.png';
 	import todoList from '$lib/assets/todo.png';
+	import tmdb from '$lib/assets/tmdb.png';
 
 	const projects = [
 		{
@@ -20,6 +21,14 @@
 			tech: ['Svelte', 'Javascript', 'Tailwind CSS'],
 			github: '#',
 			demo: 'https://todolist1333.netlify.app'
+		},
+		{
+			title: 'Svelte TMDB',
+			description: 'A small showcase of the TMDB api with sveltekit.',
+			image: tmdb,
+			tech: ['Svelte', 'Javascript', 'Tailwind CSS', 'TMDB'],
+			github: '#',
+			demo: 'https://svelte-tmdb-be.netlify.app'
 		},
 		
 	];
